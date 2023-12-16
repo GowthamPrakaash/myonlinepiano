@@ -17,10 +17,10 @@ body {
 /* } */
 
 .hero-image {
-    border: 10px solid #D2B48C;
+    border: 10px solid rgb(208, 208, 208, .2);
     /* Additional styling if needed */
     border-radius: 8px; /* Rounded border */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
     /* background-color: #C0C0C0; */
-    background-color: #D2B48C;
+    background-color: rgb(208, 208, 208, .1);
 }
