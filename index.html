@@ -14,12 +14,49 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="static/css/curtain.css">
+    <link rel="stylesheet" href="static/css/music_anim.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href= "https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="theatre">
+    <div class="curtains">
         <div class="curtain-left"></div>
         <div class="curtain-right"></div>
+    </div>
+
+    <div class="music-anim">
+        <div class="music-anim-left">
+            <div class="note-position-1 note-amination">
+                &#9835;
+            </div>
+            <div class="note-position-2 note-amination animation-delay-2">
+                &#9833;
+            </div>
+            <div class="note-position-3 note-amination animation-delay-1">
+                &#9839;
+            </div>
+            <div class="note-position-4 note-amination">
+                &#9834;
+            </div>
+        </div>
+        <div class="music-anim-right">
+            <div class="note-position-1 note-amination">
+                &#9835;
+            </div>
+            <div class="note-position-2 note-amination animation-delay-2">
+                &#9833;
+            </div>
+            <div class="note-position-3 note-amination animation-delay-1">
+                &#9839;
+            </div>
+            <div class="note-position-4 note-amination">
+                &#9834;
+            </div>
+        </div>
     </div>
 
     <header>
@@ -61,19 +98,49 @@
     </header>
 
     <main>
-        <section class="my-5 mx-md-5">
+        <section class="my-5 mt-5 mx-md-5" id="section-hero">
             <div class="container col-xxl-8 px-4 py-5">
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-10 col-md-10 col-lg-6">
-                        <img src="static/img/hero_tom.png" class="d-block mx-lg-auto img-fluid hero-image" alt="Bootstrap Themes"
-                            width="700" height="500" loading="lazy">
+                <div class="hero-quote mt-5">
+                    <!-- <h1 class="display-3"> -->
+                        <span class="d-block" style="float: left;">
+                            <h1 class="display-3">&#9835;</h1>
+                        </span>
+                        
+                        <span class="d-block float-end" style="float: right;">
+                            <h1 class="display-3">&#9835;</h1>
+                        </span>
+                        <h1 class="display-3 text-center">HARMONIZE YOUR JOURNEY, ONE NOTE AT A TIME!</h1>
+                    <!-- </h1> -->
+                </div>
+                <div class="row align-items-center g-5 py-5">
+                    <div class="col-10 col-md-10 col-lg-6 mx-auto">
+                        <img src="static/img/hero_tom.png" class="d-block mx-lg-auto img-fluid section-image"
+                            alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                     </div>
                     <div class="col-lg-6">
                         <h1 class="display-5 fw-bold lh-1 mb-3">Symphony at Your Fingertips</h1>
-                        <p class="lead py-3">Unlock the melody within! Step into a world where every keystroke unveils a symphony. Join our online piano lessons and let the music guide your journey.</p>
+                        <p class="lead py-3">Unlock the melody within! Step into a world where every keystroke unveils a
+                            symphony. Join our online piano lessons and let the music guide your journey.</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button class="btn btn-outline-success">Contact Us</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5 mx-md-5" id="section-about">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse g-5 py-5">
+                    <div class="col-10 col-md-10 col-lg-6 mx-auto">
+                        <img src="static/img/section_about_jerry.png" class="d-block mx-lg-auto img-fluid section-image"
+                            alt="Bootstrap Themes" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>About Us</h1>
+                        <!-- <h1 class="display-5 fw-bold lh-1 mb-3">Symphony at Your Fingertips</h1> -->
+                        <p class="lead py-3">Unlock the melody within! Step into a world where every keystroke unveils a
+                            symphony. Join our online piano lessons and let the music guide your journey.</p>
                     </div>
                 </div>
             </div>

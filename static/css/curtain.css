@@ -1,10 +1,10 @@
-/* .theatre {
+/* .curtains {
     position: fixed;
     height: 100vh;
     width: 100vw;
 } */
 
-/* .theatre.curtain-open {
+/* .curtains.curtain-open {
     z-index: -1;
 } */
 
@@ -37,16 +37,16 @@
         -0px 320px 40px rgba(0, 0, 0, 0.5) inset;
 }
 
-.theatre.curtain-open .curtain-left {
-    left: -5%;
+.curtains.curtain-open .curtain-left {
+    left: -10%;
     transform: translateX(-100%) rotate(15deg);
     /* transform: translateX(-100%); */
     transition: all 3s ease;
     transform-origin: 50% bottom;
 }
 
-.theatre.curtain-open .curtain-right {
-    right: -5%;
+.curtains.curtain-open .curtain-right {
+    right: -10%;
     transform: translateX(100%) rotate(-15deg);
     /* transform: translateX(100%); */
     transition: all 3s ease;
@@ -54,11 +54,41 @@
 }
 
 @media only screen and (max-width: 1400px) {
-    .theatre.curtain-open .curtain-left {
+    .curtains.curtain-open .curtain-left {
         left: -15%;
     }
     
-    .theatre.curtain-open .curtain-right {
+    .curtains.curtain-open .curtain-right {
         right: -15%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .curtains.curtain-open .curtain-left {
+        left: -20%;
+    }
+    
+    .curtains.curtain-open .curtain-right {
+        right: -20%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .curtains.curtain-open .curtain-left {
+        left: -30%;
+    }
+    
+    .curtains.curtain-open .curtain-right {
+        right: -30%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .curtains.curtain-open .curtain-left {
+        left: -45%;
+    }
+    
+    .curtains.curtain-open .curtain-right {
+        right: -45%;
     }
 }
