@@ -1,7 +1,7 @@
 // Ref: https://codepen.io/dariodev/pen/JRqbgK
 
 function startSnow() {
-    particlesJS("particles-js", {
+    particlesJS("snowflake-particles-js", {
         particles: {
             number: {
                 value: 30,
