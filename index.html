@@ -29,10 +29,22 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onclick="openCurtain(); this.onclick=null;">
     <div class="curtains">
+        <div class="curtain-scissor">
+            <img class="curtain-scissor-image" src="static/img/scissor.png" alt="">
+            <img class="curtain-knot-image" src="static/img/rope_knot.png" alt="">
+            <div class="curtain-scissor-text">
+                Click here!
+            </div>
+        </div>
         <div class="curtain-left"></div>
         <div class="curtain-right"></div>
+    </div>
+    <div class="music-control" onclick="pauseAudio();">
+        <img class="music-control-play" src="static/img/play-button.png" alt="">
+        <img class="music-control-pause" src="static/img/pause-button.png" alt="">
+        <span>Music</span>
     </div>
     <div class="snowflakes">
         <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
@@ -158,7 +170,7 @@
     </main>
 
     <!-- Audios -->
-    <audio id="current-theme-song" src="static/audio/jingle_bells.mp3" loop="loop" preload="auto" controls></audio>
+    <audio id="current-theme-song" src="static/audio/jingle_bells.mp3" loop="loop" preload="auto"></audio>
     <!-- <iframe src="static/audio/jingle_bells.mp3" allow="autoplay" width="800" height="100"></iframe> -->
 
     <!-- Bootstrap JS -->
