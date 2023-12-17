@@ -14,7 +14,7 @@
             content: "&#10052",
             fadeOut: true,
             autoplay: true,
-            interval: 200
+            interval: 1000
         };
 
     function cssPrefix(propertyName) {
