@@ -3,6 +3,7 @@ body {
     padding: 0px;
     /* min-height: 100vh; */
     color: #F5F5F5;
+    font-family: 'Kalam', cursive;
 }
 
 body {
@@ -31,6 +32,10 @@ section {
 }
 
 .hero-quote {
-    /* font-family: 'Pacifico', cursive; */
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Lobster', sans-serif; */
+}
+
+#current-theme-song {
+    visibility: hidden;
 }

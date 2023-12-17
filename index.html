@@ -15,17 +15,27 @@
     <link rel="stylesheet" href="static/css/main.css">
     <link rel="stylesheet" href="static/css/curtain.css">
     <link rel="stylesheet" href="static/css/music_anim.css">
+    <!-- <link rel="stylesheet" href="static/css/mouse_trail.css"> -->
+    <link rel="stylesheet" href="static/css/snowflakes.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href= "https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Permanent+Marker&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="curtains">
         <div class="curtain-left"></div>
         <div class="curtain-right"></div>
+    </div>
+    <div class="snowflakes">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
     </div>
 
     <div class="music-anim">
@@ -87,11 +97,11 @@
                         </li>
                     </ul>
                     <div class="ms-auto d-block d-sm-block d-md-none">
-                        <button class="btn btn-outline-success">Contact Us</button>
+                        <button class="btn btn-success">Contact Us</button>
                     </div>
                 </div>
                 <div class="ms-auto d-none d-sm-none d-md-block">
-                    <button class="btn btn-outline-success">Contact Us</button>
+                    <button class="btn btn-success">Contact Us</button>
                 </div>
             </div>
         </nav>
@@ -102,19 +112,19 @@
             <div class="container col-xxl-8 px-4 py-5">
                 <div class="hero-quote mt-5">
                     <!-- <h1 class="display-3"> -->
-                        <span class="d-block" style="float: left;">
-                            <h1 class="display-3">&#9835;</h1>
-                        </span>
-                        
-                        <span class="d-block float-end" style="float: right;">
-                            <h1 class="display-3">&#9835;</h1>
-                        </span>
-                        <h1 class="display-3 text-center">HARMONIZE YOUR JOURNEY, ONE NOTE AT A TIME!</h1>
+                    <span class="d-block" style="float: left;">
+                        <h1 class="display-3">&#9835;</h1>
+                    </span>
+
+                    <span class="d-block float-end" style="float: right;">
+                        <h1 class="display-3">&#9835;</h1>
+                    </span>
+                    <h1 class="display-5 text-center">HARMONIZE YOUR JOURNEY, ONE NOTE AT A TIME!</h1>
                     <!-- </h1> -->
                 </div>
                 <div class="row align-items-center g-5 py-5">
                     <div class="col-10 col-md-10 col-lg-6 mx-auto">
-                        <img src="static/img/hero_tom.png" class="d-block mx-lg-auto img-fluid section-image"
+                        <img src="static/img/hero_anime_art.png" class="d-block mx-lg-auto img-fluid section-image"
                             alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                     </div>
                     <div class="col-lg-6">
@@ -122,7 +132,7 @@
                         <p class="lead py-3">Unlock the melody within! Step into a world where every keystroke unveils a
                             symphony. Join our online piano lessons and let the music guide your journey.</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button class="btn btn-outline-success">Contact Us</button>
+                            <button class="btn btn-success">Contact Us</button>
                         </div>
                     </div>
                 </div>
@@ -147,6 +157,10 @@
         </section>
     </main>
 
+    <!-- Audios -->
+    <audio id="current-theme-song" src="static/audio/jingle_bells.mp3" loop="loop" preload="auto" controls></audio>
+    <!-- <iframe src="static/audio/jingle_bells.mp3" allow="autoplay" width="800" height="100"></iframe> -->
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -158,6 +172,7 @@
 
     <!-- Custom Scripts -->
     <script src="static/js/curtain.js"></script>
+    <!-- <script src="static/js/mouse_trail.js"></script> -->
 </body>
 
 </html>

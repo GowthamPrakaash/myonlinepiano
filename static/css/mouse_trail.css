@@ -1,0 +1,9 @@
+.trail {
+    /* className for the trail elements */
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    /* background: teal; */
+    /* content: url("static/img/mouse_trail_treble_clef.ico"); */
+}
