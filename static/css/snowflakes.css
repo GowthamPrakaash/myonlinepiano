@@ -58,6 +58,10 @@ i:before {
         transform: translate3d(15px,1200px,0px) rotate(360deg) scale(0.6);
    }
 }
+.snowflakes i {
+    width: 0px;
+    height: 0px;
+}
 .snowflakes i:nth-child(3n) {
     width: 16px;
     height: 4px;

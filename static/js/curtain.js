@@ -8,7 +8,8 @@ function openCurtain(){
         // $(".theatre").css("display", "none");
         // $(".theatre").css("z-index", "-1");
         $(".music-anim").css("display", "inherit");
-        $(".snowflakes").css("display", "inherit");
+        // $(".snowflakes").css("display", "inherit");
+        var snow = new Snowfall();
         playAudio();
         $(".music-control").show();
     }, 2000);

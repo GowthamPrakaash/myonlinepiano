@@ -35,7 +35,7 @@ section {
     display: none;
     padding: 10px;
     border-radius: 10px;
-    background-color: #F5F5F5;
+    background-color: rgba(245, 245, 245, 0.8);
     color: black;
     z-index: 1;
     position: fixed;
