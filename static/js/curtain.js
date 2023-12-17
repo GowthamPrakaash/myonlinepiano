@@ -9,7 +9,8 @@ function openCurtain(){
         // $(".theatre").css("z-index", "-1");
         $(".music-anim").css("display", "inherit");
         // $(".snowflakes").css("display", "inherit");
-        var snow = new Snowfall();
+        // var snow = new Snowfall();
+        startSnow();
         playAudio();
         $(".music-control").show();
     }, 2000);
