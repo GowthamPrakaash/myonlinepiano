@@ -47,12 +47,45 @@ main {
     color: black;
     z-index: 1;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 30px;
+    right: 30px;
     cursor: pointer;
 }
 
 .music-control img {
     height: 20px;
     display: none;
+}
+
+/* Custom CSS for Pricing Section */
+.pricing-section {
+    /* background-color: #f4f4f4; */
+    padding: 80px 0;
+}
+.pricing-table {
+    /* background-color: #fff; */
+    border: 2px solid #fff; /* White border at the top */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.pricing-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.pricing-price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-top: 2px solid #fff; /* White border at the top */
+    border-bottom: 2px solid #fff; /* White border at the bottom */
+}
+.pricing-features {
+    list-style: none;
+    padding: 0;
+}
+.pricing-features li {
+    margin-bottom: 10px;
 }
