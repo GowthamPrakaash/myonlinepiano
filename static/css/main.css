@@ -14,7 +14,7 @@ body {
 }
 
 section {
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0,0,0, 0.6);
 }
 
 main {
@@ -48,7 +48,7 @@ main {
     z-index: 1;
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
     cursor: pointer;
 }
 
@@ -56,6 +56,23 @@ main {
     height: 20px;
     display: none;
 }
+
+.whatsapp-float {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
 
 /* Custom CSS for Pricing Section */
 .pricing-section {
