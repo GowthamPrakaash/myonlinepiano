@@ -33,10 +33,11 @@
 <body onclick="openCurtain(); this.onclick=null;">
     <div class="curtains">
         <div class="curtain-scissor">
-            <img class="curtain-scissor-image" src="static/img/scissor.png" alt="">
-            <img class="curtain-knot-image" src="static/img/rope_knot.png" alt="">
+            <img class="curtain-scissor-image" src="static/img/finger_touch.png" alt="">
+            <!-- <img class="curtain-scissor-image" src="static/img/scissor.png" alt=""> -->
+            <!-- <img class="curtain-knot-image" src="static/img/rope_knot.png" alt=""> -->
             <div class="curtain-scissor-text">
-                Click here!
+                Tap to Open!
             </div>
         </div>
         <div class="curtain-left"></div>
@@ -103,81 +104,233 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#section-home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#section-aboutme">AboutMe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#section-whypiano">WhyPiano?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#section-services">Courses&Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-pricing">Pricing</a>
                         </li>
                     </ul>
                     <div class="ms-auto d-block d-sm-block d-md-none">
-                        <button class="btn btn-success">Contact Us</button>
+                        <a class="btn btn-success" href="#section-contact">Contact Us</a>
                     </div>
                 </div>
                 <div class="ms-auto d-none d-sm-none d-md-block">
-                    <button class="btn btn-success">Contact Us</button>
+                    <a class="btn btn-success" href="#section-contact">Contact Us</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="my-5 mx-md-5" id="section-hero">
-            <div class="container col-xxl-8 px-4 py-5">
-                <div class="hero-quote mt-5">
-                    <!-- <h1 class="display-3"> -->
-                    <span class="d-block" style="float: left;">
-                        <h1 class="display-3">&#9835;</h1>
-                    </span>
-
-                    <span class="d-block float-end" style="float: right;">
-                        <h1 class="display-3">&#9835;</h1>
-                    </span>
-                    <h1 class="display-5 text-center">HARMONIZE YOUR JOURNEY, ONE NOTE AT A TIME!</h1>
-                    <!-- </h1> -->
-                </div>
-                <div class="row align-items-center g-5 py-5">
-                    <div class="col-10 col-md-10 col-lg-6 mx-auto">
-                        <img src="static/img/hero_anime_art.png" class="d-block mx-lg-auto img-fluid section-image"
-                            alt="Boy playing piano" width="700" height="500" loading="lazy">
+        <section id="section-home" class="mt-5 py-5">
+            <div class="container">
+                <h1 class="text-center my-3 mb-4 display-5 hero-quote">
+                    ♫ HARMONIZE YOUR JOURNEY, ONE NOTE AT A TIME! ♫
+                </h1>
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-3 mb-md-0 order-md-1 order-1">
+                        <h2 class="display-4 mb-4">Embark on Your Piano Learning Journey</h2>
+                        <p class="lead">Unlock the magic of music and discover the joy of playing the piano. Whether
+                            you're a
+                            beginner or looking to enhance your skills, our lessons are tailored for you.</p>
+                        <p>Join us on this musical adventure where every note is a step towards your passion. Let the
+                            melody
+                            of the piano accompany you on a journey of creativity and self-expression.</p>
+                        <p>Are you ready to explore the world of piano music?</p>
+                        <div class="text-center mt-4">
+                            <a href="#section-contact" class="btn btn-success btn-lg">Contact Us</a>
+                        </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h1 class="display-5 fw-bold lh-1 mb-3">Symphony at Your Fingertips</h1>
-                        <p class="py-3">Unlock the melody within! Step into a world where every keystroke unveils a
-                            symphony. Join our online piano lessons and let the music guide your journey.</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button class="btn btn-success">Contact Us</button>
+                    <div class="col-md-6 order-md-2 order-2">
+                        <img src="static/img/section_hero_dalle3.png" alt="Piano Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-aboutme" class="mt-5 py-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Image or Placeholder -->
+                    <div class="col-md-6 order-md-1 order-2">
+                        <img src="static/img/section_about_dalle3.png" alt="Alice Jane" class="img-fluid">
+                    </div>
+
+                    <!-- Textual Content -->
+                    <div class="col-md-6 mb-3 mb-md-0 order-md-2 order-1">
+                        <h2 class="display-4 mb-4">Meet Alice Jane</h2>
+                        <p class="lead">Welcome to my musical world! I'm Alice Jane, a passionate pianist and dedicated
+                            teacher.</p>
+                        <p>My journey with the piano and keyboard started in childhood, weaving through years of
+                            practice and dedication. With over three years of experience in online teaching, I've honed
+                            my skills not only as a pianist but also as a compassionate and effective educator.</p>
+                        <p>One of my unique strengths is the ability to teach piano in English, Tamil, and Malayalam,
+                            making music accessible across different linguistic backgrounds. Join me in this beautiful
+                            journey of music and let's create melodies that resonate with your soul.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="section-whypiano" class="mt-5 py-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Textual Content -->
+                    <div class="col-md-6 mb-3 mb-md-0 order-md-1 order-1">
+                        <h2 class="display-4 mb-4">Why Choose Piano?</h2>
+                        <p class="lead">The piano is more than just an instrument—it's a gateway to mastering music and
+                            enhancing life skills.</p>
+                        <ul class="why-piano-list">
+                            <li>Universality: Opens doors to all genres of music and serves as a cornerstone for musical
+                                theory.</li>
+                            <li>Brain Booster: Enhances cognitive skills, boosts memory, concentration, and multitasking
+                                abilities.</li>
+                            <li>Emotional Expression: Offers a powerful medium for emotional release and personal
+                                expression.</li>
+                            <li>Ambidexterity: Develops coordination and dexterity in both hands, promoting brain-hand
+                                connection.</li>
+                            <li>Concentration: Requires focused attention, cultivating deep concentration and patience.
+                            </li>
+                            <li>Accessibility: With no age barriers, it's an instrument that's approachable by anyone at
+                                any time.</li>
+                        </ul>
+                        <p>Embark on a musical journey with the piano and let its harmonies enrich your life. Whether
+                            your goal is to perform, compose, or simply enjoy music, the piano is an ideal starting
+                            point.</p>
+                    </div>
+
+                    <!-- Image or Placeholder -->
+                    <div class="col-md-6 order-md-2 order-2">
+                        <img src="static/img/section_why_dalle3.png" alt="Why Choose Piano" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-services" class="mt-5 py-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Image or Placeholder -->
+                    <div class="col-md-6 order-md-1 order-2">
+                        <img src="static/img/section_services_dalle3.png" alt="Courses and Services" class="img-fluid">
+                    </div>
+
+                    <!-- Textual Content -->
+                    <div class="col-md-6 mb-3 mb-md-0 order-md-2 order-1">
+                        <h2 class="display-4 mb-4">Courses & Services</h2>
+                        <p class="lead">Step into the world of professional piano playing.</p>
+                        <p>Our courses are designed to guide students through the intricate process of mastering the
+                            piano, with a clear path towards achieving international recognition. We provide
+                            comprehensive preparation for:</p>
+                        <ul>
+                            <li><strong>ABRSM (Associated Board of the Royal Schools of Music):</strong> A leading
+                                authority in music education, offering graded music exams, assessments, and diplomas.
+                            </li>
+                            <li><strong>Trinity College London:</strong> Renowned for fostering musical achievement with
+                                a range of exams and certifications recognized worldwide.</li>
+                        </ul>
+                        <p>Whether you're starting your musical journey or aiming for advanced certification, our
+                            tailored approach ensures you receive the support, resources, and expert guidance needed to
+                            excel.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="section-pricing" class="mt-5 py-5">
+            <div class="container">
+                <h2 class="text-center display-4 mb-4">Pricing</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="pricing-table">
+                            <h3 class="pricing-title">Basic Plan</h3>
+                            <div class="pricing-price">₹5,000</div>
+                            <ul class="pricing-features">
+                                <li>8 classes in a month</li>
+                                <li>Weekly twice (40 min/session)</li>
+                                <li>Valid for two months</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-table">
+                            <h3 class="pricing-title">Standard Plan</h3>
+                            <div class="pricing-price">₹7,000</div>
+                            <ul class="pricing-features">
+                                <li>12 classes per month</li>
+                                <li>Weekly thrice (40 min/session)</li>
+                                <li>Valid for two months</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-table">
+                            <h3 class="pricing-title">Premium Plan</h3>
+                            <div class="pricing-price">₹10,000</div>
+                            <ul class="pricing-features">
+                                <li>20 classes per month</li>
+                                <li>Mon to Fri (20 min/session)</li>
+                                <li>Valid for one month</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="my-5 mx-md-5" id="section-about">
-            <div class="container col-xxl-8 px-4 py-5">
-                <div class="row align-items-center  flex-lg-row-reverse g-5 py-5">
-                    <div class="col-10 col-md-10 col-lg-6 mx-auto">
-                        <img src="static/img/section_about_anime_art.png" class="d-block mx-lg-auto img-fluid section-image"
-                            alt="Girl playing piano" height="500" loading="lazy">
-                    </div>
-                    <div class="col-lg-6">
-                        <h1>About Me</h1>
-                        <p class="py-3">
-                            Hi, I am Alice Jane. 
-                            I began playing the piano and keyboard as a child. 
-                            I have been educating students online for the past three years. 
-                            I've continued to practice, improve, and develop as a teacher. 
-                            I can teach piano to students in the languages: English, Tamil and Malayalam.
+        <section id="section-contact" class="mt-5 py-5">
+            <div class="container">
+                <h2 class="text-center display-4 mb-4">Contact Us</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <h3>Contact Information</h3>
+                        <p><strong>Phone:</strong> +91 123-456-7890 (Placeholder)</p>
+                        <!-- WhatsApp Bootstrap Icon with Link -->
+                        <p>
+                            <strong>WhatsApp:</strong>
+                            <a href="https://wa.me/911234567890" target="_blank">
+                                <i class="bi bi-whatsapp">
+                                    <img src="static/img/WhatsApp_icon.png" alt="WhatsApp_icon" height="30px">
+                                </i>
+                            </a>
                         </p>
+                        <p><strong>Email:</strong> example@example.com (Placeholder)</p>
+                        <p>Contact me any time to schedule a trial class.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>"Music is the divine way to tell beautiful, poetic things to the heart."</p>
+                        <p>- Pablo Casals</p>
+                        <p>"The piano keys are black and white, but they sound like a million colors in your mind."</p>
+                        <p>- Maria Cristina Mena</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <footer class="bg-dark text-light py-3">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-left border-end border-2 border-white">
+                    <p class="text-end">&copy; 2023 myonlinepiano.com</p>
+                </div>
+                <div class="col-md-6 text-right border-start border-2 border-white">
+                    <p">Created by <a href="https://grandeplans.com" target="_blank" class="text-light">GrandePlans.com</a></p>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <!-- Audios -->
@@ -192,7 +345,7 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+
     <!-- particle.js -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
