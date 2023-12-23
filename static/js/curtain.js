@@ -13,6 +13,7 @@ function openCurtain(){
         startSnow();
         playAudio();
         $(".music-control").show();
+        $(".whatsapp-float").show();
     }, 2000);
     // }, 1000);
 }

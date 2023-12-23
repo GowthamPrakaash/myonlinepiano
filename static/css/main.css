@@ -7,14 +7,14 @@ body {
 }
 
 body {
-    background-image: url("/static/img/bg_main5.jpg");
+    background-image: url("/static/img/bg_main_dalle3.png");
     background-position: center;
     background-attachment: fixed;
     /* background-size: 100%; */
 }
 
 section {
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0, 0.5);
 }
 
 main {
