@@ -72,7 +72,7 @@ main {
     50% {
       transform: translateY(-20px);
     }
-  }
+}
 
 /* Custom CSS for Pricing Section */
 .pricing-section {
@@ -105,4 +105,8 @@ main {
 }
 .pricing-features li {
     margin-bottom: 10px;
+}
+
+section img {
+    border-radius: 100px;
 }
