@@ -11,10 +11,10 @@
 .curtain-scissor {
     z-index: 1;
     position: fixed;
-    /* top: 50%; */
-    bottom: 30%;
-    /* left: 50%; */
-    right: 20%;
+    top: 50%;
+    left: 50%;
+    /* bottom: 30%; */
+    /* right: 20%; */
 }
 
 .curtain-scissor * {
@@ -23,30 +23,34 @@
 
 .curtain-scissor-image {
     position: absolute;
-    top: 50px;
+    top: 30px;
     width: 100px;
-    animation: growShrink 1s ease-in-out infinite; /* Animation duration and timing function */
 }
 
-.curtain-knot-image {
+.curtain-ribbon-image {
     z-index: -1;
     height: 100px;
     position: absolute;
     /* top: 100px; */
     left: 0px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
 }
 
 .curtain-scissor-text {
     z-index: 1;
     position: absolute;
-    top: 200px;
+    top: 130px;
     left: 20px;
     width: 100px;
     text-align: center;
-    color: black;
+    color: #bdbdbd;
     /* word-break: keep-all; */
     /* word-wrap: break-word; */
+}
+
+.curtain-prompt {
+    animation: growShrink 1.5s ease-in-out infinite; /* Animation duration and timing function */
 }
 
 @keyframes growShrink {
@@ -54,7 +58,7 @@
         transform: scale(1); /* Initial size (1x) */
     }
     50% {
-        transform: scale(1.2); /* Grow to 1.2x size */
+        transform: scale(1.1); /* Grow to 1.2x size */
     }
     100% {
         transform: scale(1); /* Back to initial size (1x) */
@@ -67,11 +71,11 @@
     top: -300px;
     bottom: -30px;
     width: 50%;
-    background-color: #FFFF00; /* Yellow color */
+    background-color: #A23800; /* Updated base color to #A23800 */
     background-image: linear-gradient(90deg,
-            #FFD700 30%, /* Darker yellow for shadows */
+            #8F3200 30%, /* Darker orange for shadows */
             transparent 50%, /* Transparent middle */
-            #FFD700 80%, /* Darker yellow for shadows */
+            #8F3200 80%, /* Darker orange for shadows */
             transparent 100%); /* Transparent bottom */
     background-size: 90px;
 }

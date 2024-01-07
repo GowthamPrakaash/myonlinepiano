@@ -33,11 +33,13 @@
 <body onclick="openCurtain(); this.onclick=null;">
     <div class="curtains">
         <div class="curtain-scissor">
-            <img class="curtain-scissor-image" src="static/img/finger_touch.png" alt="">
-            <!-- <img class="curtain-scissor-image" src="static/img/scissor.png" alt=""> -->
-            <!-- <img class="curtain-knot-image" src="static/img/rope_knot.png" alt=""> -->
-            <div class="curtain-scissor-text">
-                Tap to Open!
+            <!-- <img class="curtain-scissor-image" src="static/img/finger_touch.png" alt=""> -->
+            <img class="curtain-ribbon-image" src="static/img/ribbon.png" alt="">
+            <div class="curtain-prompt">
+                <img class="curtain-scissor-image" src="static/img/scissor.png" alt="">
+                <div class="curtain-scissor-text">
+                    Tap to Open!
+                </div>
             </div>
         </div>
         <div class="curtain-left"></div>
@@ -138,8 +140,8 @@
                 </h1>
                 <div class="row align-items-center">
                     <div class="col-md-6 mb-3 mb-md-0 order-md-1 order-1">
-                        <h2 class="display-4 mb-4">Embark on Your Piano Learning Journey</h2>
-                        <p class="lead">Unlock the magic of music and discover the joy of playing the piano. Whether
+                        <h2 class="display-5 mb-4">Embark on Your Piano Learning Journey</h2>
+                        <p class="section-quote">Unlock the magic of music and discover the joy of playing the piano. Whether
                             you're a
                             beginner or looking to enhance your skills, our lessons are tailored for you.</p>
                         <p>Join us on this musical adventure where every note is a step towards your passion. Let the
@@ -163,13 +165,13 @@
 
                     <!-- Image or Placeholder -->
                     <div class="col-md-6 order-md-1 order-2">
-                        <img src="static/img/section_about_dalle3.png" alt="Alice Jane" class="img-fluid">
+                        <img src="static/img/section_about_anime_art.png" alt="Alice Jane" class="img-fluid">
                     </div>
 
                     <!-- Textual Content -->
                     <div class="col-md-6 mb-3 mb-md-0 order-md-2 order-1">
-                        <h2 class="display-4 mb-4">Meet Alice Jane</h2>
-                        <p class="lead">Welcome to my musical world! I'm Alice Jane, a passionate pianist and dedicated
+                        <h2 class="display-5 mb-4">Meet Alice Jane</h2>
+                        <p class="section-quote">Welcome to my musical world! I'm Alice Jane, a passionate pianist and dedicated
                             teacher.</p>
                         <p>My journey with the piano and keyboard started in childhood, weaving through years of
                             practice and dedication. With over three years of experience in online teaching, I've honed
@@ -189,8 +191,8 @@
 
                     <!-- Textual Content -->
                     <div class="col-md-6 mb-3 mb-md-0 order-md-1 order-1">
-                        <h2 class="display-4 mb-4">Why Choose Piano?</h2>
-                        <p class="lead">The piano is more than just an instrument—it's a gateway to mastering music and
+                        <h2 class="display-5 mb-4">Why Choose Piano?</h2>
+                        <p class="section-quote">The piano is more than just an instrument—it's a gateway to mastering music and
                             enhancing life skills.</p>
                         <ul class="why-piano-list">
                             <li>Universality: Opens doors to all genres of music and serves as a cornerstone for musical
@@ -230,21 +232,21 @@
 
                     <!-- Textual Content -->
                     <div class="col-md-6 mb-3 mb-md-0 order-md-2 order-1">
-                        <h2 class="display-4 mb-4">Courses & Services</h2>
-                        <p class="lead">Step into the world of professional piano playing.</p>
+                        <h2 class="display-5 mb-4">Courses & Services</h2>
+                        <p class="section-quote">Step into the world of professional piano playing.</p>
                         <p>Our courses are designed to guide students through the intricate process of mastering the
-                            piano, with a clear path towards achieving international recognition. We provide
-                            comprehensive preparation for:</p>
+                            piano, with a clear path towards achieving international recognition. </p>
+                        <p>We also provide comprehensive preparation for:</p>
                         <ul>
-                            <li><strong>ABRSM (Associated Board of the Royal Schools of Music):</strong> A leading
+                            <li><strong>ABRSM (Associated Board of the Royal Schools of Music):</strong> A section-quoteing
                                 authority in music education, offering graded music exams, assessments, and diplomas.
                             </li>
                             <li><strong>Trinity College London:</strong> Renowned for fostering musical achievement with
                                 a range of exams and certifications recognized worldwide.</li>
                         </ul>
-                        <p>Whether you're starting your musical journey or aiming for advanced certification, our
+                        <!-- <p>Whether you're starting your musical journey or aiming for advanced certification, our
                             tailored approach ensures you receive the support, resources, and expert guidance needed to
-                            excel.</p>
+                            excel.</p> -->
                     </div>
 
                 </div>
@@ -253,9 +255,20 @@
 
         <section id="section-pricing" class="mt-5 py-5">
             <div class="container">
-                <h2 class="text-center display-4 mb-4">Pricing</h2>
+                <h2 class="text-center display-5 mb-4">Pricing</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mx-auto mt-2">
+                        <div class="pricing-table">
+                            <h3 class="pricing-title">Starter Plan</h3>
+                            <div class="pricing-price">₹3,500</div>
+                            <ul class="pricing-features">
+                                <li>4 classes in a month</li>
+                                <li>Weekly once (40 min/session)</li>
+                                <li>Valid for one month</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mx-auto mt-2">
                         <div class="pricing-table">
                             <h3 class="pricing-title">Basic Plan</h3>
                             <div class="pricing-price">₹5,000</div>
@@ -266,7 +279,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mx-auto mt-2">
                         <div class="pricing-table">
                             <h3 class="pricing-title">Standard Plan</h3>
                             <div class="pricing-price">₹7,000</div>
@@ -277,7 +290,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mx-auto mt-2">
                         <div class="pricing-table">
                             <h3 class="pricing-title">Premium Plan</h3>
                             <div class="pricing-price">₹10,000</div>
@@ -294,7 +307,7 @@
 
         <section id="section-contact" class="mt-5 py-5">
             <div class="container">
-                <h2 class="text-center display-4 mb-4">Contact Us</h2>
+                <h2 class="text-center display-5 mb-4">Contact Us</h2>
                 <div class="row align-items-center">
                     <div class="col-md-6 mb-3 mb-md-0">
                         <h3>Contact Information</h3>
@@ -327,7 +340,8 @@
                     <p class="text-end">&copy; 2023 myonlinepiano.com</p>
                 </div>
                 <div class="col-md-6 text-right border-start border-2 border-white">
-                    <p">Created by <a href="https://grandeplans.com" target="_blank" class="text-light">GrandePlans.com</a></p>
+                    <p">Created by <a href="https://grandeplans.com" target="_blank"
+                            class="text-light">GrandePlans.com</a></p>
                 </div>
             </div>
         </footer>

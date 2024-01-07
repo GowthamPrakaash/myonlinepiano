@@ -39,6 +39,13 @@ main {
     /* font-family: 'Lobster', sans-serif; */
 }
 
+.section-quote {
+    border-left: 8px solid #78C0A8;
+    line-height: 1.6;
+    background: rgba(0,0,0, 0.2);
+    padding: 0.3em 10px 0.3em 20px;
+}
+
 .music-control {
     display: none;
     padding: 10px;
@@ -86,6 +93,9 @@ main {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+.pricing-table:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .pricing-title {
     font-size: 24px;
