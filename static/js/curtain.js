@@ -4,6 +4,10 @@ function openCurtain(){
     $(".curtain-scissor").css("opacity","0");
     $(".curtains").addClass("curtain-open");
 
+    setTimeout(function() {
+        document.querySelector('.curtain-open').style.zIndex = '-1';
+    }, 3000);
+
     setTimeout(function () {
         // $(".theatre").css("display", "none");
         // $(".theatre").css("z-index", "-1");

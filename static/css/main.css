@@ -13,8 +13,10 @@ body {
     /* background-size: 100%; */
 }
 
-section {
-    background-color: rgba(0,0,0, 0.6);
+main {
+    /* background-color: rgba(0,0,0, 0.6); */
+    background: rgba(0, 13, 27, 0.8);
+    overflow-y: hidden;
 }
 
 main {
@@ -70,6 +72,7 @@ main {
     bottom: 30px;
     right: 30px;
     animation: bounce 1.5s infinite;
+    z-index: 1;
 }
 
 @keyframes bounce {
